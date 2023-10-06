@@ -1,0 +1,20 @@
+{
+    "name": "oxygenzsas/composer_lib_router",
+    "description": "Un rooter minimaliste dérivé de Xesau/Router",
+    "license": "MIT",
+    "keywords": ["rooter","minimalist","PSR-15","onefile"],
+    "authors": [
+        {
+            "name": "nvanhaezebrocuk",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OxygenzSAS\\Rooter\\" : "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    }
+}
